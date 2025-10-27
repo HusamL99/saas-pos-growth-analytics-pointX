@@ -5,7 +5,7 @@ Scope: PoS SaaS Merchant-Month dataset. All rules define valid states for data p
 
 ## 1. Key Business Concepts
 - **Merchant**: One subscribed business using the PoS SaaS platform.
-- **Merchant-Month record**: A monthly revenue and activity snapshot for an active merchant. Used to measure revenue continuity and churn.
+- **Merchant-Month record**: A monthly revenue and activity snapshot for a merchant. Used to measure revenue continuity and churn.
 - **Subscription Revenue Model**: PoS SaaS charges recurring fees tied to plan tier. Upsells increase revenue. Churn removes future revenue.
 
 ## 2. Business Logic Rules (with reasoning)
