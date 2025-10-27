@@ -1,4 +1,4 @@
-import numpy as np                                     # import NumPy for numeric operations and random sampling
+import numpy as np                                     # import NumPy for numeric operations and random sampling 
 import pandas as pd                                    # import pandas for DataFrame handling
 import uuid                                            # import uuid (unused in generation but commonly available for IDs)
 from datetime import datetime, timedelta               # import datetime tools (timedelta unused but available)
