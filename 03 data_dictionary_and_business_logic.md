@@ -24,10 +24,10 @@ Scope: PoS SaaS Merchant-Month dataset. All rules define valid states for data p
 | mrr | NUMERIC | Monthly subscription revenue | Core SaaS revenue metric | ≥ 0 |
 | new_mrr | NUMERIC | First active month revenue or upgrade | Growth signal | ≥ 0. Only when onboarding or upgrading |
 | expansion_mrr | NUMERIC | Upsells from existing merchants | Adoption depth | ≥ 0. Only if previously active |
-| churned_mrr | NUMERIC | Lost revenue when churn occurs | Revenue churn metric | = previous mrr if active→inactive |
+| churned_mrr | NUMERIC | Lost revenue when churn occurs | Revenue churn metric | = previous mrr |
 | active_status | BOOLEAN | Merchant active this month | Churn indicator | mrr > 0 ⇒ true |
-| total_payment_volume | NUMERIC | Total JOD processed | Business health signal | ≥ 0 only if active |
-| transaction_count | INTEGER | Count of PoS transactions | Validates activity | ≥ 0 only if active |
+| total_payment_volume | NUMERIC | Total JOD processed | Business health signal | > 0 only if active |
+| transaction_count | INTEGER | Count of PoS transactions | Validates activity | > 0 only if active |
 
 ---
 
