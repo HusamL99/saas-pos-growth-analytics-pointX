@@ -7,11 +7,11 @@ Scope: PoS SaaS Merchant-Month dataset. All rules define valid states for data p
 
 | Field | Type | Valid Values | Why It Matters | Constraints |
 |------|-----|--------------|----------------|-------------|
-| merchant_id | STRING | UUID | Merchant tracking across months | Unique. Not null. |
-| merchant_industry | STRING | F&B, Retail, Hospitality, Pharmacy, Other | Segmentation by sector | Static after onboarding |
+| merchant_id | STRING | ID | Merchant tracking across months | Unique. Not null. |
+| merchant_industry | STRING | F&B, Retail, Hospitality, Pharmacy, Other | Segmentation by industry | Static after onboarding |
 | merchant_governorate | STRING | Jordan governorates | Location economics and distribution channels | Static |
-| subscription_plan | STRING | Basic, Pro, Enterprise | MRR driver | Static unless explicit plan change event |
-| acquisition_channel | STRING | Bank Partner, Sales Agent, Online | CAC cost segmentation | Static |
+| subscription_plan | STRING | Basic, Pro, Enterprise | MRR driver | Static |
+| acquisition_channel | STRING | Bank Partner, Sales Agent, Online | CAC segmentation | Static |
 | customer_acquisition_cost | NUMERIC | ≥ 0 JOD | CAC vs LTV | Set once at onboarding |
 
 ---
