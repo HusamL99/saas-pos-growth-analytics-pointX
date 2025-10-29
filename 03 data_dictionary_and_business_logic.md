@@ -40,13 +40,13 @@ Key Business Concepts
 | Field | Affects | Affected By | Validation Rule |
 |------|---------|-------------|-----------------|
 | customer_acquisition_cost | LTV:CAC, ROI | acquisition_channel | Align with channel cost ranges |
-| mrr | active_status, TPV | new_mrr, expansion_mrr, churned_mrr, prior mrr | Must match plan tier patterns |
+| mrr | active_status, TPV | new_mrr, expansion_mrr, churned_mrr | Must match plan tier patterns |
 | new_mrr | mrr (+) | onboarding timestamp | Only in first active month or upgrade |
 | expansion_mrr | mrr (+) | plan changes | Only existing active merchants |
-| churned_mrr | mrr (–) | prior mrr, active_status | Only when active→inactive |
-| active_status | churned_mrr logic | mrr > 0 | Boolean true if mrr > 0 |
+| churned_mrr | mrr (–) | active_status | Only when active→inactive |
+| active_status | churned_mrr | mrr | True if mrr > 0 |
 | total_payment_volume | transaction_count | mrr, industry | Correlate with MRR tier |
-| transaction_count | TPV | industry, business size | Align with avg_ticket ranges |
+| transaction_count | TPV | industry | Align with avg_ticket ranges |
 
 
 
