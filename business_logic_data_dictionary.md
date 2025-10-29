@@ -11,12 +11,12 @@ Scope: PoS SaaS Merchant-Month dataset. All rules define valid states for data p
 ## 2. Business Logic Rules (with reasoning)
 | Rule | Business Reason |
 |------|----------------|
-| MRR ≥ 0 | Negative subscription revenue is impossible. Customers pay the business, not vice-versa. |
+| MRR ≥ 0 | Negative subscription revenue is impossible. Customers pay the business, not vice-versa. MRR is limited to current active customers. 0 MRR means the merchant has churned. |
 | New MRR only when first active month or upgrade | New value comes from new subscriptions or higher tiers. |
-| Expansion MRR ≥ 0 | Upsells only add revenue. No downgrades here. |
+| Expansion MRR ≥ 0 | Upsells only add revenue. No downgrades here. 0 is very common and expected. |
 | Churned MRR = last active MRR | When a merchant leaves, the business loses exactly their subscription revenue. |
 | No revenue after churn (MRR, TPV, txns = 0) | Churned customers stop using the platform and stop paying. |
-| CAC fixed per merchant | Acquisition cost happens once at the start. |
+| CAC fixed per merchant | Acquisition cost happens once at the start. CAC varies within channels. 0 is logically possible but rare|
 | Transactions and TPV only if active_status=True | Inactive merchants do not process payments. |
 | Merchant profile (industry, governorate, plan) is static | Segmentation is based on original onboarding attributes. |
 | Month format is YYYY-MM-01 | Monthly cohort style reporting avoids ambiguity. |
