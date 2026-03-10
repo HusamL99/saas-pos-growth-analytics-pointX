@@ -13,7 +13,6 @@ This leads to inefficient resource allocation and missed churn warnings.
 4. Average Revenue per Merchant (ARPM / ARPU)
 5. Customer Acquisition Cost per Merchant (CAC)
 6. Lifetime Value (LTV) to CAC Ratio
-7. Cohort Analysis
 
 ---
 
