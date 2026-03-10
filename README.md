@@ -14,8 +14,6 @@ This leads to inefficient resource allocation and missed churn warnings.
 5. Customer Acquisition Cost per Merchant (CAC)
 6. Lifetime Value (LTV) to CAC Ratio
 
----
-
 ## 📊 Dataset Description
 Synthetic **Merchant-Month SaaS dataset** designed with:
 - **Business-realistic revenue behavior**
@@ -28,15 +26,11 @@ Synthetic **Merchant-Month SaaS dataset** designed with:
 - CAC by acquisition channel
 - Merchant activity (TPV, Transaction Count)
 
----
-
 ## 🛠 Tools
 | Stage | Tool |
 |-------|------|
 | Data profiling & cleaning | Power Query (Power BI) |
 | Visualization & KPIs | Power BI |
-
----
 
 ## ✅ Key Business Questions
 1. Which merchant segments drive most revenue and growth?
@@ -44,14 +38,8 @@ Synthetic **Merchant-Month SaaS dataset** designed with:
 3. Are acquisition costs justified by long-term value?
 4. What drives upsell (Expansion MRR) in top cohorts?
 
----
-
 ## 📌 Expected Output (Power BI)
 Visual pages: 2-3 pages dashboard
 - Executive metrics: ARR, MRR paths, NRR
 - Churn & cohort analysis
 - CAC efficiency by segment
-
----
-
-## 📂 Repository Structure
