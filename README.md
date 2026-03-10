@@ -2,7 +2,7 @@
 
 **PointX** is a fictional B2B cloud-based point-of-sale platform used for my data analytics portfolio project. The project focuses on **subscription health and growth efficiency**.
 
-## 🎯 Business Problem
+## 🎯 Problem Statement & Business Pain Points:
 Management lacks a unified view of subscription health and growth efficiency. We are unsure which customer segments are the most profitable, whether revenue is growing organically from existing merchants, and if acquisition investments justify long-term value.  
 This leads to inefficient resource allocation and missed churn warnings.
 
