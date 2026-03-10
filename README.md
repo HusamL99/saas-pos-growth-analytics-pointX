@@ -1,6 +1,6 @@
 # SaaS PoS Growth Analytics Project — PointX
 
-A data analytics portfolio project focusing on SaaS business performance for Point-of-Sale providers in Jordan.
+**PointX** is a fictional B2B cloud-based point-of-sale platform used for a data analytics portfolio project. The analysis focuses on **subscription health and growth efficiency** for a POS provider.
 
 ## 🎯 Business Problem
 Management lacks a unified view of subscription health and growth efficiency. We are unsure which customer segments are the most profitable, whether revenue is growing organically from existing merchants, and if acquisition investments justify long-term value.  
