@@ -2,11 +2,11 @@
 
 **PointX** is a fictional B2B cloud-based point-of-sale platform used for my data analytics portfolio project. The project focuses on **subscription health and growth efficiency**.
 
-## 🎯 Problem Statement & Business Pain Points:
+## 🎯 Problem Statement & Business Pain Points
 Management lacks a unified view of subscription health and growth efficiency. We are unsure which customer segments are the most profitable, whether revenue is growing organically from existing merchants, and if acquisition investments justify long-term value.  
 This leads to inefficient resource allocation and missed churn warnings.
 
-## ✅ Business KPIs: 
+## ✅ Business KPIs
 1. Monthly Recurring Revenue (MRR)
 2. Net Revenue Retention (NRR) / Expansion MRR
 3. Revenue Churn Rate
@@ -21,7 +21,7 @@ Synthetic **Merchant-Month SaaS dataset** designed with:
 - Segment patterns based on Jordan’s PoS market
 - Data-quality issues for cleaning practice
 
-📌 Key metrics included:
+📌 Key metrics included
 - MRR, New MRR, Expansion MRR, Revenue Churn
 - CAC by acquisition channel
 - Merchant activity (TPV, Transaction Count)
@@ -37,9 +37,3 @@ Synthetic **Merchant-Month SaaS dataset** designed with:
 2. How does churn vary by region and plan?
 3. Are acquisition costs justified by long-term value?
 4. What drives upsell (Expansion MRR) in top cohorts?
-
-## 📌 Expected Output (Power BI)
-Visual pages: 2-3 pages dashboard
-- Executive metrics: ARR, MRR paths, NRR
-- Churn & cohort analysis
-- CAC efficiency by segment
