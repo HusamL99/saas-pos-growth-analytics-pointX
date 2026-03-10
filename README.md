@@ -6,11 +6,14 @@
 Management lacks a unified view of subscription health and growth efficiency. We are unsure which customer segments are the most profitable, whether revenue is growing organically from existing merchants, and if acquisition investments justify long-term value.  
 This leads to inefficient resource allocation and missed churn warnings.
 
-## ✅ Project Goals
-- Measure growth efficiency (MRR, NRR)
-- Understand segment profitability (Industry, Region, Plan, Channel)
-- Analyze churn patterns and early-warning signals
-- Link CAC to retention and merchant value
+## ✅ Business KPIs: 
+1. Monthly Recurring Revenue (MRR)
+2. Net Revenue Retention (NRR) / Expansion MRR
+3. Revenue Churn Rate
+4. Average Revenue per Merchant (ARPM / ARPU)
+5. Customer Acquisition Cost per Merchant (CAC)
+6. Lifetime Value (LTV) to CAC Ratio
+7. Cohort Analysis
 
 ---
 
