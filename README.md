@@ -29,7 +29,7 @@ This leads to inefficient resource allocation and missed churn warnings.
 | **Is revenue growth driven primarily by new merchants or expansion from existing merchants?** | MRR, New MRR, Expansion MRR, Net Revenue Retention (NRR) | new_mrr, expansion_mrr, mrr, month                                  | Revenue decomposition and organic growth analysis            |
 | **How does churn vary by region and plan?**                                                   | Revenue Churn Rate, Logo Churn Rate                      | churned_mrr, active_status, merchant_governorate, subscription_plan | Merchant churn patterns across geographic and plan segments  |
 | **Which acquisition channels have the lowest CAC?**                                       | CAC                              | customer_acquisition_cost            | Customer acquisition efficiency |
-| **Which acquisition channels bring the most valuable and retained merchants?**                | ARPU, LTV, NRR, Logo Churn Rate                          | acquisition_channel, mrr, churned_mrr, active_status                | Channel-level merchant value and retention performance       |
+| **Which acquisition channels bring the most valuable and retained merchants?**                | ARPU, NRR, Logo Churn Rate                          | acquisition_channel, mrr, churned_mrr, active_status                | Channel-level merchant value and retention performance       |
 
 
 ## Key Insights
