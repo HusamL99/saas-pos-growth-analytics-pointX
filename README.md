@@ -8,18 +8,13 @@ This leads to inefficient resource allocation and missed churn warnings.
 
 ## ✅ Business KPIs
 1. Monthly Recurring Revenue (MRR)
-2. Monthly Recurring Revenue Growth Rate
-3. Net Revenue Retention (NRR) / Expansion MRR
-4. Revenue Churn Rate
-5. Logo Churn Rate
-6. Average Revenue per Merchant (ARPM / ARPU)
-7. Customer Acquisition Cost per Merchant (CAC)
-8. Lifetime Value (LTV) to CAC Ratio
-
-📌 Key metrics included
-- MRR, New MRR, Expansion MRR, Revenue Churn
-- CAC by acquisition channel
-- Merchant activity (TPV, Transaction Count)
+2. New Monthly Recurring Revenue
+3. Monthly Recurring Revenue Growth Rate
+4. Net Revenue Retention (NRR) / Expansion MRR
+5. Revenue Churn Rate
+6. Logo Churn Rate
+7. Average Revenue per Merchant (ARPM / ARPU)
+8. Customer Acquisition Cost per Merchant (CAC)
 
 ## 🛠 Tools
 | Stage | Tool |
@@ -33,7 +28,7 @@ This leads to inefficient resource allocation and missed churn warnings.
 | **Which merchant segments drive the most revenue and growth?**                                | MRR, MRR Growth Rate, ARPU                               | merchant_industry, merchant_governorate, subscription_plan, month   | Segment revenue contribution and growth dynamics             |
 | **Is revenue growth driven primarily by new merchants or expansion from existing merchants?** | MRR, New MRR, Expansion MRR, Net Revenue Retention (NRR) | new_mrr, expansion_mrr, mrr, month                                  | Revenue decomposition and organic growth analysis            |
 | **How does churn vary by region and plan?**                                                   | Revenue Churn Rate, Logo Churn Rate                      | churned_mrr, active_status, merchant_governorate, subscription_plan | Merchant churn patterns across geographic and plan segments  |
-| **Are acquisition costs justified by long-term value?**                                       | CAC, LTV, LTV/CAC Ratio                                  | customer_acquisition_cost, mrr, churned_mrr, merchant_id            | Customer acquisition efficiency and long-term merchant value |
+| **Which acquisition channels have the lowest CAC?**                                       | CAC                              | customer_acquisition_cost            | Customer acquisition efficiency and long-term merchant value |
 | **Which acquisition channels bring the most valuable and retained merchants?**                | ARPU, LTV, NRR, Logo Churn Rate                          | acquisition_channel, mrr, churned_mrr, active_status                | Channel-level merchant value and retention performance       |
 
 
