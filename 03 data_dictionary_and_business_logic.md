@@ -1,8 +1,8 @@
 # Business Logic + Data Dictionary + Single-Table Schema
-Scope: PoS SaaS Merchant-Month dataset. All rules define valid states for data profiling and cleaning.
+Scope: PoS Merchant-Month dataset. All rules define valid states for data profiling and cleaning.
 
 Key Business Concepts
-- **Merchant**: One subscribed business using the PoS SaaS platform.
+- **Merchant**: One subscribed business using the PoS platform.
 - **Merchant-Month record**: A monthly revenue and activity snapshot for a merchant. Used to measure revenue continuity and churn.
 
 ---
