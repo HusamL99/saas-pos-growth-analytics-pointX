@@ -1,4 +1,4 @@
-# PoS Growth Analytics Project — PointX
+# Subscription Revenue Intelligence: MRR, Churn & Acquisition Efficiency Analysis
 
 **PointX** is a fictional B2B cloud-based point-of-sale platform used for my data analytics portfolio project. The project focuses on **subscription health and growth efficiency**.
 
