@@ -8,15 +8,15 @@ The project focuses on **subscription health, revenue growth efficiency, and mer
 ---
 
 ## 📌 Table of Contents
-- [Problem Statement](#-problem-statement--business-pain-points)
-- [Business KPIs](#-business-kpis)
+- [Problem Statement](#problem-statement--business-pain-points)
+- [Business KPIs](#business-kpis)
 - [KPI-Business Question Alignment](#kpi-business-question-alignment)
-- [Analytical Approach](#-analytical-approach)
-- [Tools & Methods](#-tools--methods)
-- [Project Structure](#-project-structure)
-- [Dashboard Preview](#-dashboard-preview)
-- [Key Insights](#-key-insights)
-- [Data Note](#-data-note)
+- [Analytical Approach](#analytical-approach)
+- [Tools & Methods](#tools--methods)
+- [Project Structure](#project-structure)
+- [Dashboard Preview](#dashboard-preview)
+- [Key Insights](#key-insights)
+- [Data Note](#data-note)
 
 ---
 
@@ -28,7 +28,7 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 ---
 
-## ✅ Business KPIs
+## Business KPIs
 
 | # | KPI | Business Purpose |
 |---|-----|-----------------|
@@ -43,7 +43,7 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 ---
 
-## ✅ KPI-Business Question Alignment
+## KPI-Business Question Alignment
 
 | Business Question | KPIs Used | Key Data Attributes | Analytical Focus |
 |---|---|---|---|
@@ -55,9 +55,13 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 ---
 
-## 🧠 Analytical Approach
+## Analytical Approach
 
-## 🛠 Tools & Methods
+This analysis applies systems thinking to understand how acquisition, expansion, and churn interact as a revenue system. Instead of evaluating metrics in isolation, the focus is on identifying underlying drivers, mapping relationships, and assessing how changes in one area impact overall revenue performance.
+
+---
+
+## Tools & Methods
 
 | Stage | Tool |
 |-------|------|
@@ -68,41 +72,4 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 ---
 
-## 📁 Project Structure
-```
-PointX-Revenue-Intelligence/
-│
-├── README.md
-│
-├── data/
-│   ├── raw/
-│   │   └── pointx_raw_dataset.csv
-│   └── clean/
-│       └── pointx_clean_dataset.csv
-│
-├── docs/
-│   └── data_dictionary_and_business_logic.md
-│
-├── scripts/
-│   ├── 01_generate_data.py
-│   ├── 02_clean_data.sql
-│   └── 03_analysis_queries.sql
-│
-├── powerbi/
-│   └── pointx_dashboard.pbix
-│
-└── assets/
-    └── dashboard_preview.png
-```
-
----
-
-## 📊 Dashboard Preview
-
-## 💡 Key Insights
-
-## 📝 Data Note
-
-> The dataset is synthetically generated using Python to simulate realistic PoS merchant subscription behaviors, including intentional data quality issues designed to reflect real-world analytical challenges in data cleaning and profiling.
-
----
+## Project Structure
