@@ -8,15 +8,15 @@ The project focuses on **subscription health, revenue growth efficiency, and mer
 ---
 
 ## 📌 Table of Contents
-- [Problem Statement](#-problem-statement--business-pain-points)
-- [Business KPIs](#-business-kpis)
+- [Problem Statement](#problem-statement--business-pain-points)
+- [Business KPIs](#business-kpis)
 - [KPI-Business Question Alignment](#kpi-business-question-alignment)
-- [Analytical Approach](#-analytical-approach)
-- [Tools & Methods](#-tools--methods)
-- [Project Structure](#-project-structure)
-- [Dashboard Preview](#-dashboard-preview)
-- [Key Insights](#-key-insights)
-- [Data Note](#-data-note)
+- [Analytical Approach](#analytical-approach)
+- [Tools & Methods](#tools--methods)
+- [Project Structure](#project-structure)
+- [Dashboard Preview](#dashboard-preview)
+- [Key Insights](#key-insights)
+- [Data Note](#data-note)
 
 ---
 
