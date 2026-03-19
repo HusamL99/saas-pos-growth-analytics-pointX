@@ -82,6 +82,7 @@ PointX-Revenue-Intelligence/
 │
 ├── docs/
 │   └── data_dictionary_and_business_logic.md
+|   └── data_quality_injection_plan.md
 │
 ├── scripts/
 │   ├── 01_generate_data.py
