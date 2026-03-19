@@ -43,7 +43,7 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 ---
 
-## ✅ KPI–Business Question Alignment
+## ✅ KPI-Business Question Alignment
 
 | Business Question | KPIs Used | Key Data Attributes | Analytical Focus |
 |---|---|---|---|
