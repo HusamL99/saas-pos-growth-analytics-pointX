@@ -61,7 +61,7 @@ This leads to inefficient resource allocation across sales and marketing, and an
 
 | Stage | Tool |
 |-------|------|
-| Data generation | Python (Pandas, Faker) |
+| Data generation | Pandas & NumPy  |
 | Data profiling & cleaning | Power Query (Power BI) |
 | Data analysis | SQL |
 | Visualization & KPIs | Power BI (DAX, Power Query) |
